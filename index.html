@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olive71 - Admin</title>
+
+    <!-- Font-awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- -- Bootstrap CSS Link -- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="d-flex" id="wrapper">
+        
+        <!-- Sidebar Start Here -->
+        <div class="bg-white" id="sidebar-wrapper">
+
+            <!-- -- Logo Part -- -->
+            <div class="sidebar-heading text-center px-3 py-4 primary-text fs-4 fw-bold text-uppercase border-bottom">
+                <i class="fa-solid fa-person-digging"></i> Olive<span class="text-danger">71</span> <br> Admin Panel
+            </div>
+
+            <div class="list-group list-group-flush my-3">
+                <a href="index.php" class="list-group-item fw-bold list-group-item-action text-primary bg-transparent second-text active">
+                    <i class="fa-solid fa-layer-group me-2"></i> Dashboard
+                </a>
+                <a href="" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                   <i class="fa-brands fa-codepen me-2"></i> Services
+                </a>
+                <a href="" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <i class="fa-solid fa-folder-open me-2"></i> Reviews
+                </a>
+                <a href="" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <i class="fa-solid fa-inbox me-2"></i> Protfolio
+                </a>
+                <a href="" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <i class="fa-solid fa-users me-2"></i> Our Team
+                </a>
+                <a href="" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <i class="fa-solid fa-box me-2"></i> Contact
+                </a>
+                <a href="" class="list-group-item list-group-item-action text-danger bg-transparent second-text fw-bold">
+                    <i class="fa-solid fa-right-from-bracket me-2"></i> Logout
+                </a>
+            </div>
+        </div>
+        <!-- Sidebar End Here -->
+
+        <div id="page-content-wrapper">
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-house primary-text fs-4 me-3" id="menu-toggle"></i>
+                    <h2 class="fs-2 m-0">Dashboard</h2>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#adminNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="adminNav">
+                    <ul class="navbar-nav mb-2 mb-lg-0" style="position: absolute; right: 25px;">
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle second-text fw-bold" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                                <i class="fa-solid fa-user me-2"></i> Admin
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item"><i class="fa-regular fa-user me-2"></i> Profile</a></li>
+                                <li><a href="" class="dropdown-item"><i class="fa-solid fa-gear me-2"></i> Settings</a></li>
+                                <li><a href="" class="dropdown-item text-danger"><i class="fa-solid fa-right-from-bracket me-2"></i> Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- -- Content Part -- -->
+            <div class="container-fluid px-4">
+
+                <div class="row g-3 my-2">
+
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2 fw-bold">00</h3>
+                                <p class="fs-5">Protfolio</p>
+                            </div>
+                            <i class="fa-solid fs-4 fa-text-width primary-text border rounded-full secondary-bg p-3"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2 fw-bold">00</h3>
+                                <p class="fs-5">Reviews</p>
+                            </div>
+                            <i class="fa-solid fs-4 fa-award primary-text border rounded-full secondary-bg p-3"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2 fw-bold">00</h3>
+                                <p class="fs-5">Message</p>
+                            </div>
+                            <i class="fa-solid fs-4 fa-message primary-text border rounded-full secondary-bg p-3"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2 fw-bold">00</h3>
+                                <p class="fs-5">Orders</p>
+                            </div>
+                            <i class="fa-solid fa-bullhorn fs-4 primary-text border rounded-full secondary-bg p-3"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+    <!-- Boostrap JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+     <script>
+        let el =document.getElementById('wrapper');
+        let toggleButton = document.getElementById('menu-toggle');
+
+        toggleButton.onclick = () => {
+            el.classList.toggle('toggled');
+        }
+     </script>
+</body>
+</html>
